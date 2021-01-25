@@ -1,0 +1,108 @@
+.header {
+  background: url(/img/header/layer.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  min-width: 100%;
+}
+.navigation {
+  padding: 40px 0;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+.navigation__logo {
+  text-decoration: none;
+}
+.navigation__logo_highlighted {
+  color: #66697f;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 35px;
+}
+.navigation__logo_non-highlighted {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.navigation__menu {
+  display: flex;
+  align-items: center;
+}
+.navigation__item_link {
+  text-decoration: none;
+  opacity: 0.75;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+/*_______________ FS ______________*/
+.first-screen__title {
+  width: 870px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 71px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 40px;
+}
+.first-screen__text {
+  width: 912px;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  margin: 0 auto 75px;
+}
+
+.first-screen__btn,
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto 155px;
+  color: #ffffff;
+  background-color: #e84545;
+  border: 1px solid #e84545;
+  padding: 18px 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.first-screen__btn:hover,
+.btn:hover {
+  transition: 0.5s all;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto 155px;
+  color: #ffffff;
+  background-color: #4a3979;
+  border: 1px solid #4a3979;
+  padding: 18px 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

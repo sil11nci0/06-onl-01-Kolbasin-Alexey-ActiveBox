@@ -1,0 +1,31 @@
+.download {
+  padding-top: 100px;
+}
+.download__title {
+  color: #2d3033;
+  font-family: 'Raleway';
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.download__subtitle {
+  color: #2d3033;
+  font-family: 'Raleway';
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.download__btn {
+  padding: 18px 83px;
+  margin-bottom: 100px;
+}
+.download__btn:hover {
+  padding: 18px 83px;
+  margin-bottom: 100px;
+}

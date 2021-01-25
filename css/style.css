@@ -1,0 +1,12 @@
+@import url('header.css');
+@import url('features.css');
+@import url('works.css');
+@import url('team.css');
+@import url('download.css');
+@import url('footer.css');
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
