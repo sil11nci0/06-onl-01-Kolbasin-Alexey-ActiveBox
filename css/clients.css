@@ -1,0 +1,12 @@
+.clients {
+  display: flex;
+}
+.clients-img {
+  display: flex;
+  width: 50%;
+}
+.clients-description {
+  display: flex;
+  width: 50%;
+  background: #53354a;
+}

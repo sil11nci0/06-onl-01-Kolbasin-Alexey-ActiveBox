@@ -4,6 +4,7 @@
 @import url('team.css');
 @import url('download.css');
 @import url('footer.css');
+@import url('clients.css');
 
 .container {
   max-width: 1170px;

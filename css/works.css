@@ -10,9 +10,6 @@
 .works__item:nth-child(-n + 4) {
   margin-bottom: 1px;
 }
-.works__img {
-  z-index: 2;
-}
 .works__description {
   opacity: 0;
   position: absolute;
@@ -38,7 +35,6 @@
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  z-index: 1;
 }
 .works__description_text {
   color: #ffffff;
