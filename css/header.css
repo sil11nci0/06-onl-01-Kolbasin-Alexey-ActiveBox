@@ -1,15 +1,24 @@
+/* fullscreen */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
 .header {
   background: url(/img/header/layer.png) no-repeat;
   background-size: cover;
   position: relative;
   min-width: 100%;
+  background-position: top left;
 }
 .navigation {
   padding: 40px 0;
-  margin-bottom: 150px;
   display: flex;
   justify-content: space-between;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+  margin-bottom: 50px;
 }
 .navigation__logo {
   text-decoration: none;
@@ -43,11 +52,28 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+.navigation__item_link:hover {
+  color: #e84545;
+}
+
+.navigation__item:hover {
+  transition: all 0.5s;
+  transform: scale(1.2);
+}
+
 .navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 
 /*_______________ FS ______________*/
+.first-screen {
+  margin-bottom: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .first-screen__title {
   width: 870px;
   color: #ffffff;
@@ -57,23 +83,21 @@
   line-height: 71px;
   text-align: center;
   text-transform: uppercase;
-  margin: 0 auto 40px;
+  margin-bottom: 40px;
 }
 .first-screen__text {
-  width: 912px;
+  width: 915px;
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
   line-height: 33px;
   text-align: center;
-  margin: 0 auto 75px;
+  margin-bottom: 75px;
 }
 
 .first-screen__btn,
 .btn {
   text-decoration: none;
-  display: inline-block;
-  margin: 0 auto 155px;
   color: #ffffff;
   background-color: #e84545;
   border: 1px solid #e84545;
@@ -83,26 +107,17 @@
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   text-align: center;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
 }
 .first-screen__btn:hover,
 .btn:hover {
   transition: 0.5s all;
   text-decoration: none;
-  display: inline-block;
-  margin: 0 auto 155px;
-  color: #ffffff;
-  background-color: #4a3979;
-  border: 1px solid #4a3979;
+  background-color: transparent;
+  border: 1px solid #ffffff;
   padding: 18px 50px;
   text-transform: uppercase;
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   text-align: center;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 0);
 }

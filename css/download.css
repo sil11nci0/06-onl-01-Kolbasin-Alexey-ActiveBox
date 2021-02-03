@@ -28,4 +28,6 @@
 .download__btn:hover {
   padding: 18px 83px;
   margin-bottom: 100px;
+  background: #db1d1d;
+  border: 1px solid #db1d1d;
 }
