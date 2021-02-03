@@ -1,6 +1,14 @@
 .download {
   padding-top: 100px;
 }
+.download__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
 .download__title {
   color: #2d3033;
   font-family: 'Raleway';
@@ -23,11 +31,10 @@
 }
 .download__btn {
   padding: 18px 83px;
-  margin-bottom: 100px;
 }
 .download__btn:hover {
   padding: 18px 83px;
-  margin-bottom: 100px;
+
   background: #db1d1d;
   border: 1px solid #db1d1d;
 }
