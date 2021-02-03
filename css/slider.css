@@ -15,10 +15,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   width: auto;
-  left: calc(50% + 270px);
-  bottom: 70px;
+  left: 25%;
+  bottom: 120px;
 }
 .clients__dots .slick-dots li {
   list-style-type: none;

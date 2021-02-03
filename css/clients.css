@@ -9,17 +9,19 @@
 .clients-img__item {
   /* width: 960px;
   height: 500px; */
-  background-size: cover;
+  width: 50%;
+  display: flex;
 }
 .clients-img__content {
   width: 100%;
   background-size: cover;
+  object-fit: cover;
   /* height: 500px; */
 }
 .clients-description__item {
   background: #53354a;
-  width: 960px;
-  padding: 115px 85px 90px;
+  width: 50%;
+  padding: 115px 85px 0px;
 }
 .clients-description__item_comment {
   width: 530px;
@@ -40,4 +42,5 @@
   line-height: 21px;
   text-align: left;
   text-transform: uppercase;
+  margin-bottom: 185px;
 }

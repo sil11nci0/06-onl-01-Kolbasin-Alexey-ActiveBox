@@ -83,8 +83,13 @@ ____________________ */
 .footer__copyright_symbol-heart {
   color: #e84545;
   font-family: Webdings;
+  
+}
+.fas {
+  transform: skew(7deg);
 }
 .footer__copyright_developer-text {
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
 }
+.
