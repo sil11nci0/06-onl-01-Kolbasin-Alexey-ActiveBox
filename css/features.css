@@ -35,3 +35,17 @@
   line-height: 21px;
   text-align: center;
 }
+
+@media (max-width: 992px) {
+  .features__items {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 768px) {
+  .features__item {
+    margin-bottom: 75px;
+  }
+  .features__items {
+    margin: 0 -15px 75px;
+  }
+}

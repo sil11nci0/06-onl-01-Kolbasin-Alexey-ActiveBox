@@ -45,3 +45,14 @@
   font-weight: 400;
   text-align: center;
 }
+
+@media (max-width: 966px) {
+  .works__item {
+    width: 50%;
+  }
+}
+@media (max-width: 482px) {
+  .works__item {
+    width: 100%;
+  }
+}
